@@ -20,11 +20,11 @@ export default function NavbarComponent() {
 
   const navItems = [
   { name: "Home", link: "/" },
-  { name: "AI Chatbot", link: "/chatbot" },
+  { name: "AI Chatbot", link: "/login" },
   {
     name: "More",
     submenu: [
-      { name: "Advantages", link: "/advantages" },
+      { name: "About", link: "/about" },
       { name: "Training", link: "/training" },
     ],
   },

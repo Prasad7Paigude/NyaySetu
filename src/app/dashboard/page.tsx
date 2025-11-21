@@ -69,7 +69,7 @@ export default function DashboardPage() {
           </div>
 
           {/* Account Info */}
-          <div className="mb-12">
+          {/* <div className="mb-12">
             <NeonGradientCard className="w-full max-w-2xl !bg-[#171717] [&>*]:!bg-[#171717]">
               <div className="p-6">
                 <h2 className="text-2xl font-bold text-white mb-4">Account Information</h2>
@@ -112,7 +112,7 @@ export default function DashboardPage() {
                 </button>
               </div>
             </NeonGradientCard>
-          </div>
+          </div> */}
 
           {/* Section Title */}
           <div className="text-center max-w-2xl mx-auto mb-8">
@@ -208,8 +208,9 @@ export default function DashboardPage() {
             <h2 className="text-2xl font-bold text-white mb-6">Recent Activity</h2>
             <NeonGradientCard className="w-full !bg-[#171717] [&>*]:!bg-[#171717]">
               <div className="p-6">
+                <h3 className="text-2xl font-bold text-white text-center mb-6">more features coming soon</h3>
                 <p className="text-gray-400 text-center py-8">
-                  No recent activity yet. Start using tools to see history here.
+                  No recent activity yet. 
                 </p>
               </div>
             </NeonGradientCard>
