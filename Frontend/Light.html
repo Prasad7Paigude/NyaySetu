@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box
+        }
+
+        body {
+            font-family: -apple-system, sans-serif;
+            background: #F6F7F9;
+            color: #1A3E5C;
+            padding: 0
+        }
+
+        nav {
+            background: #F6F7F9;
+            padding: 1rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 2px solid #D8E2EB;
+            position: sticky;
+            top: 0
+        }
+
+        .logo {
+            font-size: 1.2rem;
+            font-weight: 700;
+            color: #1A3E5C
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 2rem
+        }
+
+        .nav-links a {
+            color: #1A3E5C;
+            text-decoration: none;
+            font-weight: 500
+        }
+
+        .nav-links a:hover {
+            color: #CFAF6B
+        }
+
+        .btn {
+            background: #1A3E5C;
+            color: #fff;
+            padding: .6rem 1.5rem;
+            border: none;
+            border-radius: 6px;
+            font-weight: 600;
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-block;
+            margin: 0 .3rem
+        }
+
+        .btn:hover {
+            background: #CFAF6B
+        }
+
+        .hero {
+            text-align: center;
+            padding: 4rem 2rem
+        }
+
+        .hero h1 {
+            font-size: 4rem;
+            color: #1A3E5C;
+            margin-bottom: 2rem
+        }
+
+        .hero p {
+            font-size: 1.3rem;
+            color: #1A3E5C;
+            margin-bottom: 2rem
+        }
+
+        .badge {
+            background: #CFAF6B;
+            color: #fff;
+            padding: .3rem .8rem;
+            border-radius: 20px;
+            font-size: .85rem;
+            font-weight: 600;
+            display: inline-block;
+            margin: .5rem .25rem
+        }
+
+        section {
+            padding: 3rem 2rem;
+            max-width: 1200px;
+            margin: 0 auto
+        }
+
+        h2 {
+            color: #1A3E5C;
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+            text-align: center
+        }
+
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 2rem;
+            margin-top: 2rem
+        }
+
+        .feature-card {
+            background: #D8E2EB;
+            padding: 2rem;
+            border-radius: 12px;
+            border: 1px solid #D8E2EB
+        }
+
+        .feature-card h3 {
+            color: #1A3E5C;
+            margin: 1rem 0
+        }
+
+        .feature-card p {
+            color: #1A3E5C;
+            margin-bottom: 1.5rem
+        }
+
+        .footer {
+            background: #D8E2EB;
+            padding: 2rem;
+            text-align: center;
+            color: #1A3E5C;
+            border-top: 3px solid #CFAF6B
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <div class='logo'>⚖️ NyaySetu AI</div>
+        <div class='nav-links'><a href='#'>Home</a><a href='#'>AI Chatbot</a><a href='#'>More</a></div>
+        <div><button class='btn'>🌙</button><a href='#' class='btn'>Log In</a><a href='#' class='btn'>Sign Up</a></div>
+    </nav>
+    <div class='hero'>
+        <h1>NyaySetu</h1>
+        <p><strong>AI-Powered Justice for Every Citizen</strong></p>
+        <div><span class='badge'>Chatbot</span><span class='badge'>IPC Section Prediction</span><span
+                class='badge'>Legal Draft Generator</span><span class='badge'>Law & Judgement Updates</span></div>
+    </div>
+    <section>
+        <h2>Powerful AI Features</h2>
+        <p style='text-align:center;color:#1A3E5C;margin-bottom:2rem'>Experience the next generation of legal technology
+            with our advanced AI agents and intelligent automation.</p>
+        <div class='features-grid'>
+            <div class='feature-card'>
+                <div style='font-size:2rem'>💬</div>
+                <h3>Chatbot</h3>
+                <p>Acts as a legal guidance chatbot that explains complex IPC sections, legal terms, and document
+                    purposes in simple English.</p><button class='btn'>Launch Chatbot</button>
+            </div>
+            <div class='feature-card'>
+                <div style='font-size:2rem'>🕐</div>
+                <h3>IPC Section Prediction</h3>
+                <p>Automatically predicts the most relevant IPC Section(s) based on a user's incident description.</p>
+                <button class='btn'>Start Prediction</button>
+            </div>
+            <div class='feature-card'>
+                <div style='font-size:2rem'>🛡️</div>
+                <h3>Legal Draft Generator</h3>
+                <p>Automates the creation of legal documents using predefined templates and dynamic questioning.</p>
+                <button class='btn'>Generate Draft</button>
+            </div>
+            <div class='feature-card'>
+                <div style='font-size:2rem'>📁</div>
+                <h3>Law & Judgement Updation</h3>
+                <p>Automatically fetches legal news, updates, and judgments; delivered via website or newsletter.</p>
+                <button class='btn'>View Updates</button>
+            </div>
+        </div>
+    </section>
+    <div class='footer'>
+        <h3 style='margin-bottom:.5rem'>✅ LIGHT THEME PREVIEW</h3>
+        <p><strong>Primary:</strong> #1A3E5C | <strong>Secondary:</strong> #D8E2EB | <strong>Accent:</strong> #CFAF6B |
+            <strong>Background:</strong> #F6F7F9
+        </p>
+    </div>
+</body>
+
+</html>
